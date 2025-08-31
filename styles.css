@@ -1,0 +1,81 @@
+td{
+    font-size: 14px;
+}
+* {
+    font-family: "arsle";
+}
+.course{
+    font-size: 12px;
+    transition: 0.2s;
+    border: none;
+}
+.course:hover{
+    transform: scale(1.1);
+}
+.CAES{
+    background-color: #EDAE49;
+}
+.AILT{
+    background-color: #E2D8A5;
+}
+.CC{
+    background-color: #C15F54;
+}
+.NURS1{
+    background-color: #00798C;
+}
+.NURS2{
+    background-color: #30638E;
+}
+.NURS3{
+    background-color: #57b4af;
+}
+table{
+    border-spacing: 0;
+    background-color: white;
+}
+h1{
+    font-family: "punk";
+    letter-spacing: 2px;
+    font-size: 55px;
+    padding: 1em;
+}
+.weekday td{
+    border-bottom: 1px solid;
+}
+#table{
+    width: 60%;
+    background-image: url('table.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding: 5% 17%;
+}
+#tableBG{
+    margin: -6%;
+    margin-bottom: 5%;
+    border-bottom: 2px black dashed;
+    width: 120%;
+    padding: 2em 0em;
+    background-image: url('tablebg.png');
+    background-size: cover;
+    z-index: -1;
+}
+body{
+    background-image: url('backgorund.png');
+    background-size: cover;
+}
+#show{
+    color:white;
+    padding: 20px;
+    background: linear-gradient(to right, black, rgba(0,0,0,0));
+}
+#title{
+    background-image: url('white-ripped-paper-png.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 50px;
+    padding-top: 50px;
+    z-index: 100;
+}
